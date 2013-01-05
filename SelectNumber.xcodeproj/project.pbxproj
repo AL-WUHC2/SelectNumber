@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A008EC6168CBEEC00F63B96 /* URLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A008EC5168CBEEC00F63B96 /* URLUtils.m */; };
+		6A1F4FB5168D2AEC00B1CA4F /* SelectNumberListDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1F4FB4168D2AEC00B1CA4F /* SelectNumberListDetailController.m */; };
+		6A246B4E168984CB006D594C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A246B4D168984CB006D594C /* UIKit.framework */; };
+		6A246B50168984CB006D594C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A246B4F168984CB006D594C /* Foundation.framework */; };
+		6A246B52168984CB006D594C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A246B51168984CB006D594C /* CoreGraphics.framework */; };
+		6A246B58168984CB006D594C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A246B56168984CB006D594C /* InfoPlist.strings */; };
+		6A246B5A168984CB006D594C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A246B59168984CB006D594C /* main.m */; };
+		6A246B5E168984CB006D594C /* SelectNumberAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A246B5D168984CB006D594C /* SelectNumberAppDelegate.m */; };
+		6A246B60168984CB006D594C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A246B5F168984CB006D594C /* Default.png */; };
+		6A246B62168984CB006D594C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A246B61168984CB006D594C /* Default@2x.png */; };
+		6A246B64168984CB006D594C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A246B63168984CB006D594C /* Default-568h@2x.png */; };
+		6A246B67168984CB006D594C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A246B65168984CB006D594C /* MainStoryboard.storyboard */; };
+		6A246B6A168984CB006D594C /* SelectNumberListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A246B69168984CB006D594C /* SelectNumberListViewController.m */; };
+		6A246B7A16898573006D594C /* NumberPartten.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A246B7516898573006D594C /* NumberPartten.plist */; };
+		6A246B7B16898573006D594C /* NumberSection.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A246B7616898573006D594C /* NumberSection.plist */; };
+		6A246B7C16898573006D594C /* PrePaidFee.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A246B7716898573006D594C /* PrePaidFee.plist */; };
+		6A246B7D16898573006D594C /* ProvinceCity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A246B7816898573006D594C /* ProvinceCity.plist */; };
+		6A246B7E16898573006D594C /* SelectNumber.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A246B7916898573006D594C /* SelectNumber.png */; };
+		6A246B81168996E4006D594C /* SelectNumberListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A246B80168996E3006D594C /* SelectNumberListCell.m */; };
+		6A246B831689A27B006D594C /* SelectNumberListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A246B821689A27B006D594C /* SelectNumberListCell.xib */; };
+		6A246B861689A512006D594C /* SelectNumberInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A246B851689A512006D594C /* SelectNumberInfo.m */; };
+		6A246B89168A87FF006D594C /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A246B88168A87FF006D594C /* JSONKit.m */; };
+		6A26DFB0168EAD8800230108 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A26DFAF168EAD8800230108 /* CoreLocation.framework */; };
+		6A9FB428168BD6B000910030 /* SelectNumberCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9FB427168BD6B000910030 /* SelectNumberCondition.m */; };
+		6ABFADF9168ADE3F0034E76B /* SelectNumberConditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABFADF8168ADE3F0034E76B /* SelectNumberConditionViewController.m */; };
+		6ABFADFD168AE0CE0034E76B /* SelectNumberConditionDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABFADFC168AE0CE0034E76B /* SelectNumberConditionDetailController.m */; };
+		6ABFAE00168AE20C0034E76B /* SelectNumberConditionDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABFADFF168AE20C0034E76B /* SelectNumberConditionDetailCell.m */; };
+		6ABFAE02168AE23F0034E76B /* SelectNumberConditionDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ABFAE01168AE23E0034E76B /* SelectNumberConditionDetailCell.xib */; };
+		6ABFAE14168B515C0034E76B /* SelectNumberConditionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ABFAE13168B515C0034E76B /* SelectNumberConditionViewController.xib */; };
+		6AF6FA3B168D45470030423C /* NumberFormatUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF6FA3A168D45470030423C /* NumberFormatUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A008EC4168CBEEC00F63B96 /* URLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLUtils.h; sourceTree = "<group>"; };
+		6A008EC5168CBEEC00F63B96 /* URLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLUtils.m; sourceTree = "<group>"; };
+		6A1F4FB3168D2AEC00B1CA4F /* SelectNumberListDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectNumberListDetailController.h; sourceTree = "<group>"; };
+		6A1F4FB4168D2AEC00B1CA4F /* SelectNumberListDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectNumberListDetailController.m; sourceTree = "<group>"; };
+		6A246B49168984CB006D594C /* SelectNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A246B4D168984CB006D594C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A246B4F168984CB006D594C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A246B51168984CB006D594C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A246B55168984CB006D594C /* SelectNumber-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SelectNumber-Info.plist"; sourceTree = "<group>"; };
+		6A246B57168984CB006D594C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A246B59168984CB006D594C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A246B5B168984CB006D594C /* SelectNumber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SelectNumber-Prefix.pch"; sourceTree = "<group>"; };
+		6A246B5C168984CB006D594C /* SelectNumberAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectNumberAppDelegate.h; sourceTree = "<group>"; };
+		6A246B5D168984CB006D594C /* SelectNumberAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectNumberAppDelegate.m; sourceTree = "<group>"; };
+		6A246B5F168984CB006D594C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6A246B61168984CB006D594C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6A246B63168984CB006D594C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6A246B66168984CB006D594C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6A246B68168984CB006D594C /* SelectNumberListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectNumberListViewController.h; sourceTree = "<group>"; };
+		6A246B69168984CB006D594C /* SelectNumberListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectNumberListViewController.m; sourceTree = "<group>"; };
+		6A246B7516898573006D594C /* NumberPartten.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NumberPartten.plist; sourceTree = "<group>"; };
+		6A246B7616898573006D594C /* NumberSection.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NumberSection.plist; sourceTree = "<group>"; };
+		6A246B7716898573006D594C /* PrePaidFee.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PrePaidFee.plist; sourceTree = "<group>"; };
+		6A246B7816898573006D594C /* ProvinceCity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProvinceCity.plist; sourceTree = "<group>"; };
+		6A246B7916898573006D594C /* SelectNumber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SelectNumber.png; sourceTree = "<group>"; };
+		6A246B80168996E3006D594C /* SelectNumberListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectNumberListCell.m; sourceTree = "<group>"; };
+		6A246B821689A27B006D594C /* SelectNumberListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectNumberListCell.xib; sourceTree = "<group>"; };
+		6A246B841689A512006D594C /* SelectNumberInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectNumberInfo.h; sourceTree = "<group>"; };
+		6A246B851689A512006D594C /* SelectNumberInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectNumberInfo.m; sourceTree = "<group>"; };
+		6A246B87168A87FF006D594C /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		6A246B88168A87FF006D594C /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		6A26DFAF168EAD8800230108 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6A9FB426168BD6B000910030 /* SelectNumberCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectNumberCondition.h; sourceTree = "<group>"; };
+		6A9FB427168BD6B000910030 /* SelectNumberCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectNumberCondition.m; sourceTree = "<group>"; };
+		6ABFADF7168ADE3F0034E76B /* SelectNumberConditionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectNumberConditionViewController.h; sourceTree = "<group>"; };
+		6ABFADF8168ADE3F0034E76B /* SelectNumberConditionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectNumberConditionViewController.m; sourceTree = "<group>"; };
+		6ABFADFB168AE0CE0034E76B /* SelectNumberConditionDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectNumberConditionDetailController.h; sourceTree = "<group>"; };
+		6ABFADFC168AE0CE0034E76B /* SelectNumberConditionDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectNumberConditionDetailController.m; sourceTree = "<group>"; };
+		6ABFADFE168AE20C0034E76B /* SelectNumberConditionDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectNumberConditionDetailCell.h; sourceTree = "<group>"; };
+		6ABFADFF168AE20C0034E76B /* SelectNumberConditionDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectNumberConditionDetailCell.m; sourceTree = "<group>"; };
+		6ABFAE01168AE23E0034E76B /* SelectNumberConditionDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectNumberConditionDetailCell.xib; sourceTree = "<group>"; };
+		6ABFAE07168AF4700034E76B /* SelectNumberListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectNumberListCell.h; sourceTree = "<group>"; };
+		6ABFAE13168B515C0034E76B /* SelectNumberConditionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectNumberConditionViewController.xib; sourceTree = "<group>"; };
+		6AF6FA39168D45470030423C /* NumberFormatUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberFormatUtils.h; sourceTree = "<group>"; };
+		6AF6FA3A168D45470030423C /* NumberFormatUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberFormatUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A246B46168984CB006D594C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A26DFB0168EAD8800230108 /* CoreLocation.framework in Frameworks */,
+				6A246B4E168984CB006D594C /* UIKit.framework in Frameworks */,
+				6A246B50168984CB006D594C /* Foundation.framework in Frameworks */,
+				6A246B52168984CB006D594C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A008EC2168CBECC00F63B96 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				6A008EC4168CBEEC00F63B96 /* URLUtils.h */,
+				6A008EC5168CBEEC00F63B96 /* URLUtils.m */,
+				6AF6FA39168D45470030423C /* NumberFormatUtils.h */,
+				6AF6FA3A168D45470030423C /* NumberFormatUtils.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		6A1F4FB1168D2AB400B1CA4F /* listDetail */ = {
+			isa = PBXGroup;
+			children = (
+				6A1F4FB3168D2AEC00B1CA4F /* SelectNumberListDetailController.h */,
+				6A1F4FB4168D2AEC00B1CA4F /* SelectNumberListDetailController.m */,
+			);
+			name = listDetail;
+			sourceTree = "<group>";
+		};
+		6A246B3E168984CB006D594C = {
+			isa = PBXGroup;
+			children = (
+				6A246B53168984CB006D594C /* SelectNumber */,
+				6A246B4C168984CB006D594C /* Frameworks */,
+				6A246B4A168984CB006D594C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A246B4A168984CB006D594C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A246B49168984CB006D594C /* SelectNumber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A246B4C168984CB006D594C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A26DFAF168EAD8800230108 /* CoreLocation.framework */,
+				6A246B4D168984CB006D594C /* UIKit.framework */,
+				6A246B4F168984CB006D594C /* Foundation.framework */,
+				6A246B51168984CB006D594C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A246B53168984CB006D594C /* SelectNumber */ = {
+			isa = PBXGroup;
+			children = (
+				6ABFAE03168AEF650034E76B /* main */,
+				6ABFAE06168AF1BA0034E76B /* listView */,
+				6A1F4FB1168D2AB400B1CA4F /* listDetail */,
+				6ABFAE0A168AF5AC0034E76B /* conditionView */,
+				6ABFAE0B168AF5D70034E76B /* conditionDetail */,
+				6ABFAE08168AF52E0034E76B /* modal */,
+				6ABFAE09168AF5830034E76B /* frame */,
+				6A008EC2168CBECC00F63B96 /* utils */,
+				6A246B54168984CB006D594C /* Supporting Files */,
+			);
+			path = SelectNumber;
+			sourceTree = "<group>";
+		};
+		6A246B54168984CB006D594C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A246B7516898573006D594C /* NumberPartten.plist */,
+				6A246B7616898573006D594C /* NumberSection.plist */,
+				6A246B7716898573006D594C /* PrePaidFee.plist */,
+				6A246B7816898573006D594C /* ProvinceCity.plist */,
+				6A246B7916898573006D594C /* SelectNumber.png */,
+				6A246B55168984CB006D594C /* SelectNumber-Info.plist */,
+				6A246B56168984CB006D594C /* InfoPlist.strings */,
+				6A246B59168984CB006D594C /* main.m */,
+				6A246B5B168984CB006D594C /* SelectNumber-Prefix.pch */,
+				6A246B5F168984CB006D594C /* Default.png */,
+				6A246B61168984CB006D594C /* Default@2x.png */,
+				6A246B63168984CB006D594C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ABFAE03168AEF650034E76B /* main */ = {
+			isa = PBXGroup;
+			children = (
+				6A246B65168984CB006D594C /* MainStoryboard.storyboard */,
+				6A246B5C168984CB006D594C /* SelectNumberAppDelegate.h */,
+				6A246B5D168984CB006D594C /* SelectNumberAppDelegate.m */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		6ABFAE06168AF1BA0034E76B /* listView */ = {
+			isa = PBXGroup;
+			children = (
+				6A246B68168984CB006D594C /* SelectNumberListViewController.h */,
+				6A246B69168984CB006D594C /* SelectNumberListViewController.m */,
+				6A246B821689A27B006D594C /* SelectNumberListCell.xib */,
+				6ABFAE07168AF4700034E76B /* SelectNumberListCell.h */,
+				6A246B80168996E3006D594C /* SelectNumberListCell.m */,
+			);
+			name = listView;
+			sourceTree = "<group>";
+		};
+		6ABFAE08168AF52E0034E76B /* modal */ = {
+			isa = PBXGroup;
+			children = (
+				6A246B841689A512006D594C /* SelectNumberInfo.h */,
+				6A246B851689A512006D594C /* SelectNumberInfo.m */,
+				6A9FB426168BD6B000910030 /* SelectNumberCondition.h */,
+				6A9FB427168BD6B000910030 /* SelectNumberCondition.m */,
+			);
+			name = modal;
+			sourceTree = "<group>";
+		};
+		6ABFAE09168AF5830034E76B /* frame */ = {
+			isa = PBXGroup;
+			children = (
+				6A246B87168A87FF006D594C /* JSONKit.h */,
+				6A246B88168A87FF006D594C /* JSONKit.m */,
+			);
+			name = frame;
+			sourceTree = "<group>";
+		};
+		6ABFAE0A168AF5AC0034E76B /* conditionView */ = {
+			isa = PBXGroup;
+			children = (
+				6ABFAE13168B515C0034E76B /* SelectNumberConditionViewController.xib */,
+				6ABFADF7168ADE3F0034E76B /* SelectNumberConditionViewController.h */,
+				6ABFADF8168ADE3F0034E76B /* SelectNumberConditionViewController.m */,
+				6ABFAE01168AE23E0034E76B /* SelectNumberConditionDetailCell.xib */,
+				6ABFADFE168AE20C0034E76B /* SelectNumberConditionDetailCell.h */,
+				6ABFADFF168AE20C0034E76B /* SelectNumberConditionDetailCell.m */,
+			);
+			name = conditionView;
+			sourceTree = "<group>";
+		};
+		6ABFAE0B168AF5D70034E76B /* conditionDetail */ = {
+			isa = PBXGroup;
+			children = (
+				6ABFADFB168AE0CE0034E76B /* SelectNumberConditionDetailController.h */,
+				6ABFADFC168AE0CE0034E76B /* SelectNumberConditionDetailController.m */,
+			);
+			name = conditionDetail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A246B48168984CB006D594C /* SelectNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A246B70168984CB006D594C /* Build configuration list for PBXNativeTarget "SelectNumber" */;
+			buildPhases = (
+				6A246B45168984CB006D594C /* Sources */,
+				6A246B46168984CB006D594C /* Frameworks */,
+				6A246B47168984CB006D594C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelectNumber;
+			productName = SelectNumber;
+			productReference = 6A246B49168984CB006D594C /* SelectNumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A246B40168984CB006D594C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SelectNumber;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Char Aznable";
+			};
+			buildConfigurationList = 6A246B43168984CB006D594C /* Build configuration list for PBXProject "SelectNumber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A246B3E168984CB006D594C;
+			productRefGroup = 6A246B4A168984CB006D594C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A246B48168984CB006D594C /* SelectNumber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A246B47168984CB006D594C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A246B58168984CB006D594C /* InfoPlist.strings in Resources */,
+				6A246B60168984CB006D594C /* Default.png in Resources */,
+				6A246B62168984CB006D594C /* Default@2x.png in Resources */,
+				6A246B64168984CB006D594C /* Default-568h@2x.png in Resources */,
+				6A246B67168984CB006D594C /* MainStoryboard.storyboard in Resources */,
+				6A246B7A16898573006D594C /* NumberPartten.plist in Resources */,
+				6A246B7B16898573006D594C /* NumberSection.plist in Resources */,
+				6A246B7C16898573006D594C /* PrePaidFee.plist in Resources */,
+				6A246B7D16898573006D594C /* ProvinceCity.plist in Resources */,
+				6A246B7E16898573006D594C /* SelectNumber.png in Resources */,
+				6A246B831689A27B006D594C /* SelectNumberListCell.xib in Resources */,
+				6ABFAE02168AE23F0034E76B /* SelectNumberConditionDetailCell.xib in Resources */,
+				6ABFAE14168B515C0034E76B /* SelectNumberConditionViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A246B45168984CB006D594C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A246B5A168984CB006D594C /* main.m in Sources */,
+				6A246B5E168984CB006D594C /* SelectNumberAppDelegate.m in Sources */,
+				6A246B6A168984CB006D594C /* SelectNumberListViewController.m in Sources */,
+				6A246B81168996E4006D594C /* SelectNumberListCell.m in Sources */,
+				6A246B861689A512006D594C /* SelectNumberInfo.m in Sources */,
+				6A246B89168A87FF006D594C /* JSONKit.m in Sources */,
+				6ABFADF9168ADE3F0034E76B /* SelectNumberConditionViewController.m in Sources */,
+				6ABFADFD168AE0CE0034E76B /* SelectNumberConditionDetailController.m in Sources */,
+				6ABFAE00168AE20C0034E76B /* SelectNumberConditionDetailCell.m in Sources */,
+				6A9FB428168BD6B000910030 /* SelectNumberCondition.m in Sources */,
+				6A008EC6168CBEEC00F63B96 /* URLUtils.m in Sources */,
+				6A1F4FB5168D2AEC00B1CA4F /* SelectNumberListDetailController.m in Sources */,
+				6AF6FA3B168D45470030423C /* NumberFormatUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A246B56168984CB006D594C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A246B57168984CB006D594C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A246B65168984CB006D594C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A246B66168984CB006D594C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A246B6E168984CB006D594C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A246B6F168984CB006D594C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A246B71168984CB006D594C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelectNumber/SelectNumber-Prefix.pch";
+				INFOPLIST_FILE = "SelectNumber/SelectNumber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A246B72168984CB006D594C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelectNumber/SelectNumber-Prefix.pch";
+				INFOPLIST_FILE = "SelectNumber/SelectNumber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A246B43168984CB006D594C /* Build configuration list for PBXProject "SelectNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A246B6E168984CB006D594C /* Debug */,
+				6A246B6F168984CB006D594C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A246B70168984CB006D594C /* Build configuration list for PBXNativeTarget "SelectNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A246B71168984CB006D594C /* Debug */,
+				6A246B72168984CB006D594C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A246B40168984CB006D594C /* Project object */;
+}
